@@ -11,7 +11,7 @@ scripts = glob.glob("bin/*")
 with open("README.rst") as stream:
     long_description = stream.read()
 
-github_url = 'https://github.com/deanmalmgren/textract'
+github_url = 'https://github.com/esall/textract'
 
 
 def parse_requirements(requirements_filename):
@@ -57,7 +57,6 @@ setup(
     ],
     install_requires=dependencies,
     extras_require={
-        "pocketsphinx": ["pocketsphinx==0.1.15"]
     },
     dependency_links=dependency_links,
     zip_safe=False,
